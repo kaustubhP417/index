@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    </head>
+    <body style="background-color: aqua;">
+        <div class="container">
+            <formmethod="get">
+                <h1>Licence Appling form</h1>
+                <div class="form-group">
+                   Full Name
+                    <input type="text" class="form-control" name="name" placeholder="enter name" >
+                </div>
+                 <div class="form-group">
+                    phone
+                    <input type="number" class="form-control" name="phone" placeholder="enter phone">
+                </div>
+                  <div class="form-group">
+                    DOB
+                    <input type="number" class="form-control" name="dob" placeholder="enter dob">
+                </div>
+                   <div class="form-check">
+                     Gender
+                     <br>
+                    <input class="flex-check-input" type="radio" value="Male" name="flexradiodefault" id="flexradiodefault">
+                    <lable class="flex-check-lable" for="flexradiodefault2">Male</lable>
+                    </div>
+                     <input class="flex-check-innput" type="radio" value="Female" name="flexradiodefault" id="flexradiodefault">
+                    <lable class="flex-check-lable" for="flexradiodefault2">Female</lable>
+                     <div class="form-group">
+                     Address
+                    <textarea class="form-control" name="address" placeholder="enter address"></textarea>
+                </div>
+                <div class="container">
+                  <div class="form-group">
+                    city
+                    <input type="number" class="form-control" name="city" placeholder="enter city">
+                </div>
+                  <div class="form-group">
+                    pin code
+                    <input type="number" class="form-control" name="pincode" placeholder="enter pincode">
+                </div>
+                <div class="form-group">
+                <lable class="form-lable">Lience type</lable>
+                <select class="form-select" aria-label="default select example">
+                <option selected>open this select menu</option>
+                <option value="1">bike with gear</option>
+                <option value="1">bike without gear</option>
+                </select> <div class="form-group">
+                    <br>
+                    Adhar card 
+                    <input type="file" class="form-control" name="file" placeholder="select DOBS">
+                </div>
+        
+                    Passport size photo 
+                    <input type="file" class="form-control" name="file" placeholder="select DOBS">
+                </div>
+                <button type="submit" class="btn btn-success" width="70px">Apply now</button>
+                </div>
+            </formmethod>
+        </div>
+    </body>
+</html>
